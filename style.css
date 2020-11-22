@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body {
+    background-color: yellow;
+    margin: 0 auto;
+    background-image: linear-gradient(yellow, darkorange);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.wooden {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+.flex-direction {
+    display: flex;
+    background-color: dodgerblue;
+    background-image: linear-gradient(dodgerblue, purple);
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 14px 16px;
+}
+h1 {
+    text-align: center;
+}
+.box-grid {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: dodgerblue;
+    background-image: linear-gradient(dodgerblue, purple);
+    justify-content: center;
+}
+.box-grid > div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    border-radius: 30px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.logo a{
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: -20px;
+}
+.logo {
+    float: left;
+    display: flex;
+}
+.logo a:hover{
+    background-color: #111;
+}
